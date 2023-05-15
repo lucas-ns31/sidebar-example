@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <i
+            icon-name="monitor-smartphone"
+            style="width: 4.8rem; height: 4.8rem"
+          ></i>
+          <span>Responsive Menu</span>
+        </div>
+        <nav>
+          <button
+            type="button"
+            onclick="{toggleSidebar(true)}"
+            class="toggleMenuIcon"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul>
+            <li>
+              <a href="#">Início</a>
+            </li>
+
+            <li><a href="#">Conteúdo</a></li>
+
+            <li><a href="#">Contato</a></li>
+
+            <li><a href="#">Sobre</a></li>
+          </ul>
+        </nav>
+
+        <aside class="sidebar">
+          <ul>
+            <li>
+              <a href="#">
+                <span>
+                  <i icon-name="home" style="width: 35px; height: 35px"></i>
+                </span>
+                Início
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span>
+                  <i
+                    icon-name="newspaper"
+                    style="width: 35px; height: 35px"
+                  ></i>
+                </span>
+                Conteúdo
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span>
+                  <i icon-name="user-2" style="width: 35px; height: 35px"></i>
+                </span>
+                Contato
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span>
+                  <i icon-name="info" style="width: 35px; height: 35px"></i>
+                </span>
+                Sobre
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </header>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
